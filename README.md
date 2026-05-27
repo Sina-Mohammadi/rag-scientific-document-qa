@@ -88,7 +88,7 @@ How should experiments be made reproducible?
 python evaluate_rag.py
 ```
 
-It creates `rag_eval_results.csv` locally. This file is ignored by Git.
+It creates `rag_eval_results.csv` locally.
 
 ## Run tests
 
