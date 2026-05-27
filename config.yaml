@@ -1,6 +1,6 @@
 # Uses Gemini API for final answer generation.
 # Get a Gemini API key from Google AI Studio and put it in a local .env file.
-llm_model: gemini-2.0-flash
+llm_model: gemini-2.5-flash-lite
 
 # Neural embedding model for retrieval.
 # On a GPU server, Sentence Transformers will use CUDA if PyTorch detects it.
