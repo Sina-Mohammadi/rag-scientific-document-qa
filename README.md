@@ -67,7 +67,7 @@ After creating the key, create a local `.env` file in the project folder:
 
 ```text
 GOOGLE_API_KEY=your_api_key_here
-
+```
 ## Run the demo
 
 ```bash
