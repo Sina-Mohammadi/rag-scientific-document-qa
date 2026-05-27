@@ -55,15 +55,18 @@ pip install -r requirements.txt
 
 ## Gemini API key
 
-Create a Gemini API key in Google AI Studio. Then create a local `.env` file:
+This project can use the Gemini API for answer generation. To use it, you need a Gemini API key.
+
+Create or view your key here:
+
+https://aistudio.google.com/apikey
+
+Google’s Gemini documentation says that the Gemini API requires an API key and that API keys can be created and managed from the Google AI Studio API Keys page.
+
+After creating the key, create a local `.env` file in the project folder:
 
 ```text
-GOOGLE_API_KEY=your_key_here
-```
-
-Do not upload `.env` to GitHub. It is already listed in `.gitignore`.
-
-The code still runs without the key, but then it only prints a context-based fallback answer. To use Gemini for the final answer, set `GOOGLE_API_KEY`.
+GOOGLE_API_KEY=your_api_key_here
 
 ## Run the demo
 
