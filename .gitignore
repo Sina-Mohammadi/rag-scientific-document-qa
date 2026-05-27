@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+rag_eval_results.csv
+*.faiss
+*.index
+.DS_Store

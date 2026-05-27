@@ -1,0 +1,5 @@
+{"id":"q1","question":"Which strain was used with wheat bran?","expected_context_keywords":["wheat bran","Lactobacillus plantarum"],"expected_answer_keywords":["Lactobacillus plantarum"]}
+{"id":"q2","question":"At what temperature was Aspergillus oryzae grown?","expected_context_keywords":["Aspergillus oryzae","30"],"expected_answer_keywords":["30"]}
+{"id":"q3","question":"What variables are useful as machine learning features in fermentation?","expected_context_keywords":["substrate","strain","pH","temperature","duration"],"expected_answer_keywords":["substrate","strain"]}
+{"id":"q4","question":"Which sensors are mentioned for crop monitoring?","expected_context_keywords":["Sentinel-2","soil moisture","drone"],"expected_answer_keywords":["Sentinel"]}
+{"id":"q5","question":"How should experiments be made reproducible?","expected_context_keywords":["Git","configuration","random seed"],"expected_answer_keywords":["Git"]}
