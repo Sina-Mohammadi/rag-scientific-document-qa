@@ -2,7 +2,7 @@
 
 A compact Retrieval-Augmented Generation demo for asking questions over local PDFs.
 
-This project is intentionally small and easy to explain. It includes three ready-made sample PDFs, so you can run the demo immediately after setup.
+This project includes three ready-made sample PDFs, so you can run the demo immediately after setup.
 
 ## What is included
 
@@ -61,8 +61,6 @@ Create or view your key here:
 
 https://aistudio.google.com/apikey
 
-Google’s Gemini documentation says that the Gemini API requires an API key and that API keys can be created and managed from the Google AI Studio API Keys page.
-
 After creating the key, create a local `.env` file in the project folder:
 
 ```text
@@ -97,19 +95,3 @@ It creates `rag_eval_results.csv` locally. This file is ignored by Git.
 ```bash
 pytest
 ```
-
-## GPU server notes
-
-This version uses Sentence Transformer embeddings only. On a Linux GPU server, install a CUDA-enabled PyTorch version first, then run the project. If CUDA is available, the embedding model will use the GPU automatically. FAISS is used for vector search.
-
-## Regenerate the sample PDFs
-
-The PDFs are already included, but you can regenerate them with:
-
-```bash
-python create_sample_pdfs.py
-```
-
-## Notes
-
-This is a learning/demo project, not a production system. A production system would need persistent indexes, stronger document parsing, more evaluation examples, privacy controls, monitoring, and deployment infrastructure.
